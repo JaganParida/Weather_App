@@ -1,0 +1,25 @@
+.SearchBox {
+  text-align: center;
+  margin-bottom: 25px;
+  border: black;
+  width: 100%;
+}
+.MuiOutlinedInput-root {
+  color: white !important;
+}
+
+.MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline {
+  border-color: white !important;
+}
+
+.MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+  border-color: #90caf9 !important;
+}
+
+.MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: #64b5f6 !important;
+}
+
+.MuiInputLabel-root {
+  color: white !important;
+}

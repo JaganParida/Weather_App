@@ -1,0 +1,11 @@
+.weather {
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  backdrop-filter: blur(8px);
+  opacity: 0.9;
+  margin: auto;
+  padding: 50px;
+  border-radius: 50px;
+}
