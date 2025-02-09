@@ -14,3 +14,7 @@ React.js<br>
 HTML5 & CSS3<br>
 JavaScript (ES6)<br>
 OpenWeather API<br>
+
+# view live in this link
+
+https://jaganparida.github.io/Weather_App/
