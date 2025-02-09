@@ -9,7 +9,9 @@ import "./InfoBox.css";
 
 export default function InfoBox({ info }) {
   const getWeatherImage = () => {
-    if (info.humidity > 80) {
+    if (info.temp <= 5) {
+      return coldImage;
+    } else if (info.humidity > 90) {
       return rainyImage;
     } else if (info.temp > 15) {
       return hotImage;

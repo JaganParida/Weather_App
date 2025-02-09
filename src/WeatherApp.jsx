@@ -26,7 +26,9 @@ export default function WeatherApp() {
   };
 
   const getBackgroundImage = () => {
-    if (weatherInfo.humidity > 80) {
+    if (weatherInfo.temp <= 5) {
+      return COLD_URL;
+    } else if (weatherInfo.humidity > 90) {
       return RAIN_URL;
     } else if (weatherInfo.temp > 15) {
       return HOT_URL;
