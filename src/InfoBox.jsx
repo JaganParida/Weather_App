@@ -1,9 +1,6 @@
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import Typography from "@mui/material/Typography";
-import ThunderstormIcon from "@mui/icons-material/Thunderstorm";
-import AcUnitIcon from "@mui/icons-material/AcUnit";
-import WbSunnyIcon from "@mui/icons-material/WbSunny";
 import CardMedia from "@mui/material/CardMedia";
 import hotImage from "./assets/hot.png";
 import coldImage from "./assets/cold.png";
@@ -28,14 +25,7 @@ export default function InfoBox({ info }) {
           <CardContent>
             <Typography gutterBottom variant="h5" component="div">
               {info.city} &nbsp;
-              {info.temp}{" "}
-              {info.humidity > 80 ? (
-                <ThunderstormIcon />
-              ) : info.temp > 15 ? (
-                <WbSunnyIcon />
-              ) : (
-                <AcUnitIcon />
-              )}
+              {info.temp}&deg;C{" "}
               <CardMedia
                 component="img"
                 sx={{ width: 40, height: 40, marginLeft: 1 }}
