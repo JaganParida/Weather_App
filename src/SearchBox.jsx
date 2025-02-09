@@ -104,7 +104,7 @@ export default function SearchBox({ updateInfo }) {
               }
               sx={{ mb: 2 }}
             >
-              No such place exists or API key is missing!
+              No such place exists in API, Try again!
             </Alert>
           </Collapse>
         )}
