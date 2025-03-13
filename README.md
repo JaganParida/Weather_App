@@ -1,4 +1,4 @@
-# Weather App🌤
+# Weather App
 
 ## Overview
 
@@ -22,6 +22,26 @@ This is a simple **Weather App** built using **React.js, HTML, CSS, and JavaScri
 ## Live Demo
 
 Check out the live version of the app here: [Weather App](https://jaganparida.github.io/Weather_App/)
+
+## 📂 Project Setup
+
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/JaganParida/Weather_App.git
+   cd Weather_App
+   ```
+2. Install dependencies:
+   ```sh
+   npm install
+   ```
+3. Start the development server:
+   ```sh
+   npm start
+   ```
+4. Open your browser and visit:
+   ```sh
+   http://localhost:3000
+   ```
 
 ---
 
