@@ -1,20 +1,28 @@
-# Weather website
+# Weather App🌤
 
-🌤 Weather App
-A simple Weather App built using React.js, HTML, CSS, and JavaScript. It fetches real-time weather data using an API and displays temperature, humidity, wind speed, and forecasts with a user-friendly interface.
+## Overview
 
-🚀 Features<br>
-✅ Search for any city.<br>
-✅ Display temperature, humidity, wind speed, and weather condition.<br>
-✅ Fetch real-time weather data using OpenWeather API.<br>
-✅ Responsive design for mobile and desktop.<br>
+This is a simple **Weather App** built using **React.js, HTML, CSS, and JavaScript**. It fetches real-time weather data using an API and displays temperature, humidity, wind speed, and forecasts in a user-friendly interface. The app allows users to search for any city and get up-to-date weather information instantly.
 
-🛠 Technologies Used<br>
-React.js<br>
-HTML5 & CSS3<br>
-JavaScript (ES6)<br>
-OpenWeather API<br>
+## Features
 
-# view live in this link
+- Search for any city worldwide
+- Display temperature, humidity, wind speed, and weather condition
+- Fetch real-time weather data using the **OpenWeather API**
+- Responsive design for mobile and desktop
+- Simple and intuitive UI for a seamless experience
 
-https://jaganparida.github.io/Weather_App/
+## Technologies Used
+
+- **React.js**: For building the interactive UI
+- **HTML5 & CSS3**: For structuring and styling the application
+- **JavaScript (ES6)**: For handling dynamic interactions
+- **OpenWeather API**: For retrieving real-time weather data
+
+## Live Demo
+
+Check out the live version of the app here: [Weather App](https://jaganparida.github.io/Weather_App/)
+
+---
+
+### Happy Coding! 🌤
